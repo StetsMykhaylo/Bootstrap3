@@ -1,0 +1,117 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+
+}
+
+.prev {
+  font-size: 12px;
+  color: #57CDEC;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.linklink {
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+  opacity: 0.7;
+}
+.linklink:hover {
+  font-weight: 700;
+  opacity: 1;
+  color: white !important;
+}
+.block {
+  background-color: #0DCAF0;
+  opacity: 0.3 !important;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.row .row>div:nth-child(1n+4) {
+
+}
+thead>tr {
+  color: white;
+}
+
+
+.one, .two, .three, .four {
+  position: relative;
+}
+.one::after {
+  content: "22";
+  display: block;
+  width: 22px;
+  height: 15px;
+  border-radius: 25%;
+  font-size: 10px;
+  line-height: 15px;
+  background-color: #0DCAF0;
+  position: absolute;
+  top: 5px;
+  left: 100px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+.two::after {
+  content: "22";
+  display: block;
+  width: 22px;
+  height: 15px;
+  border-radius: 25%;
+  font-size: 10px;
+  line-height: 15px;
+  background-color: #0DCAF0;
+  position: absolute;
+  top: 5px;
+  left: 100px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+.three::after {
+  content: "17";
+  display: block;
+  width: 22px;
+  height: 15px;
+  border-radius: 25%;
+  font-size: 10px;
+  line-height: 15px;
+  background-color: #0DCAF0;
+  position: absolute;
+  top: 5px;
+  left: 125px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+.four::after {
+  content: "17";
+  display: block;
+  width: 22px;
+  height: 15px;
+  border-radius: 25%;
+  font-size: 10px;
+  line-height: 15px;
+  background-color: #0DCAF0;
+  position: absolute;
+  top: 5px;
+  left: 125px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+
+td, th{
+  height: 65px;
+  vertical-align: middle;
+}
